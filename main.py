@@ -25,16 +25,6 @@ class main():
         self.ruta = os.getcwd()+ "/testfichero/ficheros/"   
         self.principal()
         
-        
-    
-
-    def SystemO(self):
-        so=platform.system()
-        if so =="Linux":
-            self.ruta = os.getcwd()+"/testfichero/ficheros/"
-        else:
-            self.ruta = os.getcwd()+"\\testfichero\\ficheros\\"
-
 
     def show(self):
         print("""                             
